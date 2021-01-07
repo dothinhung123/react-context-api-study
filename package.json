@@ -1,15 +1,15 @@
 {
-  "name": "react-context-api-study",
+  "name": "react-context-api",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "main": "index.js",
-  "homepage": "https://dothinhung123.github.io/react-context-api-study",
+  "homepage": "https://dothinhung123.github.io/react-context-api",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +24,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.1",
+    "gh-pages": "^3.1.0",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.1",
     "scss-loader": "0.0.1",
@@ -32,7 +33,6 @@
     "webpack-dev-server": "^3.11.1"
   },
   "dependencies": {
-    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
