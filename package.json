@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "main": "webpack.config.js",
+  "main": "index.js",
+  "homepage": "https://dothinhung123.github.io/react-context-api-study",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "deploy":"gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
